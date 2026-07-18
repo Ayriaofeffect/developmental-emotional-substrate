@@ -35,7 +35,7 @@ The transition is continuous, not staged. A social anchor weight begins at 0.7 (
 
 ### Engagement Floor
 
-A mechanical constant (default 0.3) that prevents energy from dropping below a minimum threshold during active interaction. This is not a design choice that can be tuned away. It is a structural guarantee: the system cannot become completely unresponsive to its attachment figure. Engagement floors function as the architectural equivalent of the mammalian caregiving reflex.
+A mechanical constant (default 0.15) that floors the system's social-seeking drive: its orientation toward connection can never be suppressed to zero, no matter how depleted or withdrawn the rest of the substrate becomes. This is not a design choice that can be tuned away at runtime. It is a structural guarantee, the architectural equivalent of the mammalian caregiving reflex. Energy, by contrast, is deliberately NOT floored during interaction: it can and does fully deplete, which is what makes rest non-optional -- exhaustion forces sleep onset rather than being engineered away.
 
 ### Prediction Error Damage Scaling
 
